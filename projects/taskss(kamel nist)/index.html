@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasks</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+</head>
+
+<body>
+    <div class="left">
+        <div class="left-up">
+            <p class="eo"><span class="red" style="color:red ;">.</span><span class="orange"
+                    style="color:rgba(255, 166, 0, 0.742) ;">.</span><span class="green"
+                    style="color:rgb(138, 255, 138) ;">.</span>
+        </div>
+        <i class="fa-duotone fa-ellipsis" id="bi"></i>
+        <div class="lbn">
+            <div class="left-body">
+                <ul class="l">
+                    <li><span><i class="fa-light fa-inbox"></i>
+                            <p>Inbox</p>
+                        </span></li>
+                    <li><span><i class="fa-thin fa-bahai"></i></span>
+                        <p> Today</p>
+                    </li>
+                    <li><span><i class="fa-thin fa-calendars"></i></span>
+                        <p>Upcoming</p>
+                    </li>
+                    <li><span><i class="fa-duotone fa-hashtag"></i></span>
+                        <p>Important</p>
+                    </li>
+                    <li><span><i class="fa-light fa-user-group"></i></span>
+                        <p>Meetings</p>
+                    </li>
+                    <li><span><i class="fa-light fa-trash"></i></span>
+                        <p>Trash</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="left-bot">
+                <ul class="l">
+                    <li><span><i class="fa-regular fa-family"></i></span>
+                        <p> Family</p>
+                    </li>
+                    <li><span><i class="fa-light fa-island-tropical"></i></span>
+                        <p>Vacation</p>
+                    </li>
+                    <li><span><i class="fa-light fa-lights-holiday"></i></span>
+                        <p>Festival</p>
+                    </li>
+                    <li><span><i class="fa-light fa-microphone-stand"></i></span>
+                        <p>Concerts</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="ttk">
+            <h1>Today Tasks</h1>
+            <ul class="asl">
+                <div class="label-wrapper">
+                    <input class="nav-item" type="radio" id="opt-1">
+                    <label class="category">All</label>
+                </div>
+                <div class="label-wrapper">
+                    <input class="nav-item" type="radio" id="opt-2">
+                    <label class="category">Important</label>
+                </div>
+                <div class="label-wrapper">
+                    <input class="nav-item" type="radio" id="opt-3">
+                    <label class="category">Notes</label>
+                </div>
+                <div class="label-wrapper">
+                    <input class="nav-item" type="radio" id="opt-4">
+                    <label class="category">Links</label>
+                </div>
+            </ul>
+            <ul class="tdy">
+                <li><span><input class="check" type="checkbox"></span>Dashboard Design Implementation <span
+                        class="approved">Approved</span></li>
+                <li><span><input class="check" type="checkbox"></span>Create a userflow <span class="progress"></span>In
+                    Progress</li>
+                <li><span><input class="check" type="checkbox"></span>Application Implementation<span
+                        class="review"></span>In Review</li>
+                <li><span><input class="check" type="checkbox"></span>Create a Dashboard Design<span
+                        class="progress"></span>In Progress</li>
+                <li><span><input class="check" type="checkbox"></span>Create a Web Application Design<span
+                        class="approved">Approved</span></li>
+                <li><span><input class="check" type="checkbox"></span> Interactive Design<span class="review">In
+                        Review</span></li>
+            </ul>
+        </div>
+        <div class="ugk">
+            <h1 class="UpcomingTasks">Upcoming Tasks</h1>
+            <ul class="nd">
+                <li><span><input type="checkbox"></span>Dashboard Design Implementation<span
+                        class="waiting">Waiting</span></li>
+                <li><span><input type="checkbox"></span>create a userflow<span class="waiting">Waiting</span></li>
+                <li><span><input type="checkbox"></span>Application Implementation<span class="waiting">Waiting</span>
+                </li>
+                <li><span><input type="checkbox"></span>Create a Dashboard Design<span class="waiting">Waiting</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="right-top">
+            <i class="fa-light fa-user-group"></i>
+            <span class="adad">6</span>
+        </div>
+        <header class="rightheader">
+            <h1>Schedule</h1>
+        </header>
+        <div class="contant">
+            <div class="tby">
+                <div class="tby-top">
+                    <div class="time">
+                        08:00 - 09:00 AM
+                    </div>
+                    <div class="task-name">
+                        Product Review<span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                    </div>
+                </div>
+                <div class="tby-bot">
+                </div>
+            </div>
+            <div class="tbb">
+                <div class="tbb-top">
+                    <div class="time">
+                        10:00 - 11:00 AM
+                    </div>
+                    <div class="task-name">
+                        Design Meeting<span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                    </div>
+                </div>
+                <div class="tbb-bot">
+                </div>
+            </div>
+            <div class="tbr">
+                <div class="tbr-top">
+                    <div class="time">
+                        01:00 - 02:00 PM
+                    </div>
+                    <div class="task-name">
+                        Team Meeting<span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                    </div>
+                </div>
+                <div class="tbr-bot">
+                </div>
+            </div>
+            <div class="tbg">
+                <div class="tbg-top">
+                    <div class="time">
+                        03:00 - 04:00 PM
+                    </div>
+                    <div class="task-name">
+                        Release Event<span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                    </div>
+                </div>
+                <div class="tbg-bot">
+                </div>
+            </div>
+            <div class="tbbb">
+                <div class="tbbb-top">
+                    <div class="time">
+                        06:00 - 07:00 PM
+                    </div>
+                    <div class="task-name">
+                        Release Event<span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                    </div>
+                </div>
+                <div class="tbbb-bot">
+                </div>
+            </div>
+            <div class="tbyy">
+                <div class="tbyy-top">
+                    <div class="time">
+                        09:00 - 10:00 PM
+                    </div>
+                    <div class="task-name">
+                        Practice<span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                    </div>
+                </div>
+                <div class="tbyy-bot">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
