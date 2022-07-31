@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="icon short-cut" href="./img/20220728_165956.png">
+
+</head>
+
+<body>
+    <div class="left">
+        <div class="left-up">
+            <p class="eo"><span class="red" style="color:red ;">.</span><span class="orange"
+                    style="color:rgba(255, 166, 0, 0.742) ;">.</span><span class="green"
+                    style="color:rgb(138, 255, 138) ;">.</span>
+        </div>
+        <i class="fa-duotone fa-ellipsis" id="bi"></i>
+        <div class="lbn">
+            <div class="left-body">
+                <ul class="l">
+                    <li><span><i class="fa-light fa-inbox"></i>
+                            <p>Inbox</p>
+                        </span></li>
+                    <li><span><i class="fa-thin fa-bahai"></i></span>
+                        <p> Today</p>
+                    </li>
+                    <li><span><i class="fa-thin fa-calendars"></i></span>
+                        <p>Upcoming</p>
+                    </li>
+                    <li><span><i class="fa-duotone fa-hashtag"></i></span>
+                        <p>Important</p>
+                    </li>
+                    <li><span><i class="fa-light fa-user-group"></i></span>
+                        <p>Meetings</p>
+                    </li>
+                    <li><span><i class="fa-light fa-trash"></i></span>
+                        <p>Trash</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="left-bot">
+                <ul class="l">
+                    <li><span><i class="fa-regular fa-family"></i></span>
+                        <p> Family</p>
+                    </li>
+                    <li><span><i class="fa-light fa-island-tropical"></i></span>
+                        <p>Vacation</p>
+                    </li>
+                    <li><span><i class="fa-light fa-lights-holiday"></i></span>
+                        <p>Festival</p>
+                    </li>
+                    <li><span><i class="fa-light fa-microphone-stand"></i></span>
+                        <p>Concerts</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="ttk">
+            <h1>Today Tasks</h1>
+            <div class="asl">
+                <div class="label-wrapper">
+                    <input class="nav-item" type="radio" id="opt-1" name="cat" checked>
+                    <label class="category" for="opt-1">All</label>
+                </div>
+                <div class="label-wrapper">
+                    <input class="nav-item" type="radio" id="opt-2" name="cat">
+                    <label class="category" for="opt-2">Important</label>
+                </div>
+                <div class="label-wrapper">
+                    <input class="nav-item" type="radio" id="opt-3" name="cat">
+                    <label class="category" for="opt-3">Notes</label>
+                </div>
+                <div class="label-wrapper">
+                    <input class="nav-item" type="radio" id="opt-4" name="cat">
+                    <label class="category" for="opt-4">Links</label>
+                </div>
+            </div>
+            <ul class="tdy">
+                <li><span><input class="check" type="checkbox" id="a1" checked></span><label for="a1"
+                        class="labe">Dashboard Design Implementation</label>
+                </li>
+                <div class="Approved"><span class="ca"> Approved</span></div>
+                <li><span><input class="check" type="checkbox" id="a2"></span><label for="a2" class="labe">Create a
+                        userflow </label> </li>
+                <div class="Progress"><span class="ca">In Progress</span></div>
+                <li><span><input class="check" type="checkbox" id="a3"></span><label for="a3" class="labe">Application
+                        Implementation</label></li>
+                <div class="Review"><span class="ca">In Review</span></div>
+                <li><span><input class="check" type="checkbox" id="a4"></span><label for="a4" class="labe">Create a
+                        Dashboard Design</label></li>
+                <div class="Progress"><span class="ca">In Progress</span></div>
+                <li><span><input class="check" type="checkbox" id="a5"></span><label for="a5" class="labe">Create a Web
+                        Application Design</label>
+                </li>
+                <div class="Approved"><span class="ca"> Approved</span></div>
+                <li><span><input class="check" type="checkbox" id="a6"></span> <label for="a6" class="labe">Interactive
+                        Design</label></li>
+                <div class="Review"><span class="ca"> In Review</span></div>
+            </ul>
+        </div>
+        <div class="ugk">
+            <h1 class="UpcomingTasks">Upcoming Tasks</h1>
+            <h2></h2>
+            <ul class="nd">
+                <li><span><input type="checkbox" id="b1"></span><p><label for="b1">Dashboard Design Implementation</label> </p></li>
+                <li><span><input type="checkbox" id="b2"></span><p><label for="b2">create a userflow</label> </p></li>
+                <li><span><input type="checkbox" id="b3"></span><p><label for="b3">Application Implementation</label> </p></li>
+                <li><span><input type="checkbox" id="b4"></span><p><label for="b4">Create a Dashboard Design</label> </p></li>
+            </ul>
+            <ul class="wait">
+                <li>Waiting</li>
+                <li>Waiting</li>
+                <li>Waiting</li>
+                <li>Waiting</li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="right-top">
+            <i class="fa-light fa-user-group"></i>
+            <span class="adad">5</span>
+        </div>
+        <header class="rightheader">
+            <h1>Schedule</h1>
+        </header>
+        <div class="contant">
+            <div class="tby">
+                <div class="tby-top">
+                    <div class="time">
+                        08:00 - 09:00 AM
+                    </div>
+                    <div class="task-name">
+                        Product Review
+                    </div>
+                    <div class="ico">
+                        <span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                    </div>
+                    <div class="tby-bot">
+                        <img src="./img/1.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                        <img src="./img/2.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                        <img src="./img/3.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                        <img src="./img/4.png" style="border-radius: 50px; width:40px;height: 40px; ">
+                    </div>
+                </div>
+            </div>
+            <div class="tbb">
+                <div class="tbb-top">
+                    <div class="time">
+                        10:00 - 11:00 PM
+                    </div>
+                    <div class="task-name">
+                        Design Meeting
+                    </div>
+                    <div class="ico">
+                        <span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                    </div>
+                    <div class="tbb-bot">
+                        <img src="./img/18.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                        <img src="./img/19.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                        <img src="./img/20.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                        <img src="./img/21.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tbg">
+            <div class="tbg-top">
+                <div class="time">
+                    03:00 - 04:00 PM
+                </div>
+                <div class="task-name">
+                    Release Event
+                </div>
+                <div class="ico">
+                    <span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                </div>
+                <div class="tbg-bot">
+                    <img src="./img/5.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                    <img src="./img/6.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                    <img src="./img/7.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                    <img src="./img/8.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                </div>
+            </div>
+        </div>
+        <div class="tbbb">
+            <div class="tbbb-top">
+                <div class="time">
+                    06:00 - 07:00 PM
+                </div>
+                <div class="task-name">
+                    Team Meeting
+                </div>
+                <div class="ico">
+                    <span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                </div>
+                <div class="tbbb-bot">
+                    <img src="./img/9.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                    <img src="./img/22.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                    <img src="./img/10.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                </div>
+            </div>
+        </div>
+        <div class="tbyy">
+            <div class="tbyy-top">
+                <div class="time">
+                    09:00 - 10:00 PM
+                </div>
+                <div class="task-name">
+                    Practice
+                </div>
+                <div class="ico">
+                    <span class="khast"><i class="fa-light fa-ellipsis-stroke-vertical"></i></span>
+                </div>
+                <div class="tbyy-bot">
+                    <img src="./img/11.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                    <img src="./img/12.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                    <img src="./img/14.jpg" style="border-radius: 50px; width:40px;height: 40px; ">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
